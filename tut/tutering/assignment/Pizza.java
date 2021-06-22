@@ -66,7 +66,7 @@ public class Pizza {
 				int salad = inp.nextInt();
 				if (salad == 1) {
 					total += 5.95;
-					listMenu.append("CAESAR SALAD : $5.95\n");
+					listMenu.append("ROSE PASTA : $5.95\n");
 				}
 				else if (salad == 2) {
 					total += 4.95;
