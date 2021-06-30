@@ -15,5 +15,6 @@ public class Temp {
 			char ch5 = (char)((((int)ch1 + ((int)ch2 * 2) + (int)ch3 + ((int)ch4 * 2)) % 26) + 65);
 			System.out.printf("Promo Code is %c%c%c%c%c%n", ch1, ch2, ch3, ch4, ch5);
 		}
+		inp.close();
 	}
 }
